@@ -17,7 +17,9 @@ docker-compose build
 
 ### Start Docker Container
 
-``` docker-compose up -d ```
+```
+docker-compose up -d
+```
 
 ### Install PHP dependencies:
 
