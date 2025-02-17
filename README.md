@@ -11,7 +11,9 @@
 
 ### Build the Docker images:
 
-``` docker-compose build ```
+```
+docker-compose build
+ ```
 
 ### Start Docker Container
 
@@ -19,27 +21,39 @@
 
 ### Install PHP dependencies:
 
-``` docker-compose run --rm composer install ```
+``` 
+docker-compose run --rm composer install
+ ```
 
 ### Install Node dependecies:
 
-``` docker-compose run --rm npm install ```
+``` 
+docker-compose run --rm npm install
+ ```
 
 ### Build asset
 
-``` docker-compose run --rm npm run build ```
+``` 
+docker-compose run --rm npm run build
+ ```
 
 ### To run the Vite development server:
 
-``` docker-compose run --rm --service-ports npm run dev ```
+```
+docker-compose run --rm --service-ports npm run dev
+```
 
 ### Create a copy of the .env file:
 
-``` cp src/.env.example src/.env ```
+``` 
+cp src/.env.example src/.env
+```
 
 ### Generate an application key:
 
-``` docker-compose run --rm artisan key:generate ```
+``` 
+docker-compose run --rm artisan key:generate
+```
 
 ### Update your database connection details in .env file
 
@@ -65,8 +79,12 @@ DB_PASSWORD=root
 
 ### Run database migrations:
 
-`docker-compose run --rm artisan migrate`
+```
+docker-compose run --rm artisan migrate
+```
 
 ### docker-compose run --rm artisan migrate
 
-`docker-compose run --rm artisan migrate`
+```
+docker-compose run --rm artisan migrate 
+```
