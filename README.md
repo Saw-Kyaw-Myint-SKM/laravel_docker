@@ -19,7 +19,7 @@
 
 ### Install PHP dependencies:
 
-` docker-compose run --rm composer install`
+`docker-compose run --rm composer install`
 
 ### Install Node dependecies:
 
